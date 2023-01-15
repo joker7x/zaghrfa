@@ -4,7 +4,7 @@ from telebot import *
 from telebot.types import (
 InlineKeyboardMarkup as Mk ,
 InlineKeyboardButton as btn)
-bot = TeleBot(input("Token : "))
+bot = TeleBot(input("5911061931:AAGSgzXHr6mDMLzle0vdxRE_ksr5BJmD87M : "))
 dev = Mk().add(btn(text='• Developer •',url='t.me/DevNoxi'))
 @bot.message_handler(commands=['start'])
 def start(msg):
